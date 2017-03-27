@@ -51,6 +51,7 @@ body{
 .logo h1 a{
 	color: #FFF;
 	font-size: 6em;
+	text-transform: uppercase;
 	font-family: 'bebas_neueregular';
 }
 /*--menu--*/
@@ -87,6 +88,7 @@ body{
 }
 .header-text .phone {
 	color:#8A8803;
+	text-transform: uppercase;
 	font:16px/1.2em Arial, Helvetica, sans-serif;
 	padding-left: 20px;
 	display: inline-block;
@@ -304,6 +306,7 @@ hr {
 }
 
 .span_1_of_3 h2{
+	text-transform: uppercase;
 	text-align: center;
 	color: #544E46;
 	font-size: 2.1em;
@@ -331,6 +334,7 @@ hr {
 }
 
 .span_1_of_3_center h2{
+	text-transform: uppercase;
 	text-align: center;
 	color: #544E46;
 	font-size: 2.5em;
