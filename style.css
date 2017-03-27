@@ -105,6 +105,7 @@ body{
 }
 /*--content--*/
 .top-box h2{
+	text-transform: uppercase;
 	text-align: center;
 	color: #E49A4F;
 	font-size: 3em;
