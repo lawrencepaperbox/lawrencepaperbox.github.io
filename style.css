@@ -121,6 +121,19 @@ body{
 	font-family: 'bebas_neueregular';
 	margin-bottom: 15px;
 }
+
+.top-box{
+	text-align:center;
+	margin-bottom: 2%;
+}
+.top-box p{
+	color: #2f292b;
+	font-size: 0.8125em;
+	line-height: 1.5em;
+	width: 75%;
+	margin: 0 auto;
+}
+
 hr {
 	border-bottom: 1px solid #CCC;
 	border-top: none;
@@ -133,20 +146,10 @@ hr {
 	margin-right: auto;
 	margin-left: auto;
 }
-.top-box{
-	text-align:center;
-	margin-bottom: 2%;
-}
-.top-box p{
-	color: #2f292b;
-	font-size: 0.8125em;
-	line-height: 1.5em;
-	width: 65%;
-	margin: 0 auto;
-}
 
 /*  SECTIONS  */
 .section {
+	text-align: center;
 	clear: both;
 	padding: 0px;
 	margin-bottom: 2%;
@@ -166,133 +169,6 @@ hr {
     zoom:1; /* For IE 6/7 */
 }
 
-
-/*  GRID OF FIVE   ============================================================================= */
-.col_1_of_5{
-	display: block;
-	float: left;
-	margin: 1% 0 1% 3.6%;
-}
-.col_1_of_5:first-child { margin-left: 0; }
-
-.span_1_of_5 {
-  	width: 16.72%;
-}
-.span_1_of_5  h3{
-	color: #888;
-	margin-bottom: .5em;
-	font-size: 1.2em;
-	line-height: 1.2;
-	font-family: 'PT Sans', sans-serif;
-	font-weight: normal;
-	margin-top: 0px;
-	letter-spacing: -1px;
-	text-transform: uppercase;
-}
-.span_1_of_5   p {
-	color: #999;
-	font-size: 0.8125em;
-	line-height: 1.5em;
-}
-/***** Media Queries *****/
-@media only screen and (max-width: 1024px) {
-	.wrap{
-		width:95%;
-	}	
-}
-/*  GO FULL WIDTH AT LESS THAN 640 PIXELS */
- @media only screen and (max-width: 640px) and (min-width: 480px) {
-	.wrap{
-		width:95%;
-	}
-	.col_1_of_5{ 
-		margin: 1% 0 1% 0%;
-	}
-	.span_1_of_5 {
-		width:94%;
-		padding:3%;  
-	}
-}
-
-/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
- @media only screen and (max-width: 480px) {
-	.wrap{
-		width:95%;
-	}
-	.col_1_of_5{ 
-		margin: 1% 0 1% 0%;
-	}
-	.span_1_of_5 {
-		width:92%;
-		padding:4%;
-	}
-}
-.grid_img{
-	text-align:center;
-	margin-bottom: 4%;
-}
-.content-top{
-	margin-bottom:5%;
-}
-/*  GRID OF FOUR   ============================================================================= */
-
-.col_1_of_4{
-	display: block;
-	float: left;
-	margin: 1% 0 1% 2.6%;
-}
-.col_1_of_4:first-child { margin-left: 0; } /* all browsers except IE6 and lower */
-.span_1_of_4 {
-	width: 22.8%;
-}
-.span_1_of_4 img{
-	display:block;
-}
-.span_1_of_4  h3 a{
-	color:#fff;
-	text-transform: uppercase;
-	font-size:1.3em;
-	line-height: 1.2;
-	font-family: 'PT Sans', sans-serif;
-	font-weight : normal;
-	margin-top: 0px;
-	letter-spacing: -1px;
-}
-.span_1_of_4  h3 a:hover{
-	color:#E4E24F;
-}
-/***** Media Queries *****/
-@media only screen and (max-width: 1024px) {
-	.wrap{
-		width:95%;
-	}	
-}
-/*  GO FULL WIDTH AT LESS THAN 640 PIXELS */
-@media only screen and (max-width: 640px) and (min-width: 480px) {
-	.wrap{
-		width:95%;
-	}
-	.col_1_of_4{ 
-		margin: 1% 0 1% 0%;
-	}
-	.span_1_of_4 {
-		width:94%;
-		padding:3%;  
-	}
-}
-/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
-@media only screen and (max-width: 480px) {
-	.wrap{
-		width:95%;
-	}
-	.col_1_of_4{ 
-		margin: 1% 0 1% 0%;
-	}
-	.span_1_of_4 {
-		width:92%;
-		padding:4%; 
-	}
-}
 
 /*  GRID OF THREE   ============================================================================= */
 
