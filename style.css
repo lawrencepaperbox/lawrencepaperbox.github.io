@@ -144,6 +144,29 @@ hr {
 	width: 65%;
 	margin: 0 auto;
 }
+
+/*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+
+/*  GROUPING  */
+.group:before,
+.group:after {
+	content:"";
+	display:table;
+}
+.group:after {
+	clear:both;
+}
+.group {
+    zoom:1; /* For IE 6/7 */
+}
+
+
 /*  GRID OF FIVE   ============================================================================= */
 .col_1_of_5{
 	display: block;
