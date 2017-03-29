@@ -177,17 +177,16 @@ hr {
 
 .col_1_of_3{
 	display: block;
-	float: left;
-	margin: 1% 0 1% 5.2%;
+	float: center;
+	margin: 1% 0 1% auto;
 }
-.col_1_of_3:first-child { margin-left: 5.2%; } /* all browsers except IE6 and lower */
+.col_1_of_3:first-child { margin-left: 0; } /* all browsers except IE6 and lower */
 
 .span_1_of_3 {
 	width: 30.2%;
 }
 .span_1_of_3 img{
 	display:block;
-	float: left;
 }
 .span_1_of_3  h3 a{
 	color:#fff;
