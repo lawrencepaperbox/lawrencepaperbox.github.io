@@ -177,8 +177,8 @@ hr {
 
 .col_1_of_3{
 	display: block;
-	float: center;
-	margin: 1% 0 1% auto;
+	float: left;
+	margin: 1% 0 1% 4%;
 }
 .col_1_of_3:first-child { margin-left: 0; } /* all browsers except IE6 and lower */
 
