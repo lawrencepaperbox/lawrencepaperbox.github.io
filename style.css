@@ -179,9 +179,9 @@ hr {
 .col_1_of_3{
 	display: block;
 	float: left;
-	margin: 1% 0 1% 2.6%;
+	margin: 1% 0 1% 5.2%;
 }
-.col_1_of_3:first-child { margin-left: 1%; } /* all browsers except IE6 and lower */
+.col_1_of_3:first-child { margin-left: 5.2%; } /* all browsers except IE6 and lower */
 
 .span_1_of_3 {
 	width: 32.2%;
@@ -189,8 +189,6 @@ hr {
 .span_1_of_3 img{
 	display:block;
 	float: left;
-    	position: relative;
-    	left: -50%;
 }
 .span_1_of_3  h3 a{
 	color:#fff;
