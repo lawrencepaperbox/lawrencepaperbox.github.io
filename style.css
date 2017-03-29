@@ -181,13 +181,16 @@ hr {
 	float: left;
 	margin: 1% 0 1% 2.6%;
 }
-.col_1_of_3:first-child { margin-left: 0; } /* all browsers except IE6 and lower */
+.col_1_of_3:first-child { margin-left: 1%; } /* all browsers except IE6 and lower */
+
 .span_1_of_3 {
 	width: 32.2%;
 }
 .span_1_of_3 img{
-	text-align: center;
 	display:block;
+	float: left;
+    	position: relative;
+    	left: -50%;
 }
 .span_1_of_3  h3 a{
 	color:#fff;
