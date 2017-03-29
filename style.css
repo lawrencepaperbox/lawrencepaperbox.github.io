@@ -150,7 +150,6 @@ hr {
 /*  SECTIONS  */
 .section {
 	width: 95%;
-	text-align: center;
 	clear: both;
 	padding: 0px;
 	margin-bottom: 2%;
@@ -184,7 +183,7 @@ hr {
 .col_1_of_3:first-child { margin-left: 5.2%; } /* all browsers except IE6 and lower */
 
 .span_1_of_3 {
-	width: 32.2%;
+	width: 30.2%;
 }
 .span_1_of_3 img{
 	display:block;
